@@ -1,0 +1,138 @@
+h1 {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.form_input {
+    width: 25%;
+    display: inline-block;
+    border: 1px solid rgb(201, 193, 193);
+}
+
+.form_select {
+    width: 15%;
+    display: inline-block;
+    margin: 20px;
+    border: 1px solid rgb(201, 193, 193);
+}
+
+.myForm {
+    text-align: center;
+    margin: 20px;
+}
+
+.form_btn {
+    display: inline-flex;
+}
+
+.form_btn button {
+    width: 90px;
+}
+
+.col {
+    height: auto;
+    min-height: 70vh;
+    border: 1px solid black;
+    border-radius: 4px;
+    margin: 20px;
+    padding: 0px;
+    /* background-color: #f2f2f2; */
+}
+
+h5 {
+    padding: 20px;
+    margin: 0px;
+}
+
+.task-header {
+    border-bottom: 1px solid black;
+}
+
+.tasks {
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 0 10px;
+    text-align: left;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    cursor: grab;
+}
+
+.tasks:active {
+    opacity: 0.7;
+    border: 1px solid gray;
+
+}
+
+.task {
+    margin-bottom: 10px;
+    max-width: 75%;
+}
+
+.tasks:hover .task_menu {
+    display: flex;
+    align-items: center;
+}
+
+.task_menu {
+    display: none;
+}
+
+.edit_icon:hover, .delete_icon:hover {
+    background-color: #f0f0f0;
+}
+
+.task_menu i {
+    border: 1px solid rgb(201, 193, 193);
+    padding: 2px 5px;
+}
+
+.edit_icon {
+    border-radius: 5px 0 0 5px;
+}
+
+.delete_icon {
+    border-radius: 0 5px 5px 0;
+}
+
+/* Modal CSS*/
+.edit_form {
+    margin: 20px;
+}
+
+input, select {
+    margin-bottom: 20px;
+}
+
+.edit_form_select {
+    width: 30%;
+    border: 1px solid rgb(201, 193, 193);
+}
+
+.form_btns {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.form_btn {
+    margin-right: 20px;
+}
+
+.drop_area {
+    /* width: 100%; */
+    height: 100px;
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    opacity: 1;
+    transition: all 0.2s ease-in-out;
+}
+
+.hide_area {
+    opacity: 0;
+    height: 10px;
+}
+
